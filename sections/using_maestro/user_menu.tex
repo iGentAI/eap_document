@@ -1,0 +1,41 @@
+\subsection*{User Menu}
+
+\begin{center}
+\includegraphics[width=0.4\textwidth]{user_menu.png}
+\end{center}
+
+The user menu provides access to essential settings and configuration options for your Maestro session.
+
+\subsubsection*{Light/Dark Mode}
+
+Toggle between light and dark themes to match your preferred working environment. The interface automatically adjusts colors and contrast to ensure comfortable viewing in any lighting condition.
+
+\subsubsection*{Link GitHub}
+
+Connect your GitHub account to enable Maestro's source control management capabilities. This authentication allows the agent to:
+\begin{itemize}
+    \item Work with your private repositories
+    \item Create new repositories under your account or organizations
+    \item Generate pull requests on your behalf
+    \item Clone and manage both public and private repositories
+\end{itemize}
+
+Once linked, Maestro can seamlessly integrate with your GitHub workflow, making version control operations as simple as natural language commands.
+
+\subsubsection*{Manage Credentials}
+
+The credential management system allows you to securely store and use:
+\begin{itemize}
+    \item API keys for third-party services
+    \item Environment variables for your applications
+    \item Authentication tokens and secrets
+    \item Complete \texttt{.env} files for project configurations
+\end{itemize}
+
+\textbf{Important}: To use stored credentials in your session, you must explicitly activate them by either:
+\begin{itemize}
+    \item Using the \texttt{/credentials} command
+    \item Asking the agent to activate specific credentials when needed
+\end{itemize}
+
+This explicit activation ensures your sensitive information is only exposed when necessary and under your direct control.
